@@ -21,6 +21,8 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    echo multiline npm isn't working
-    npm install -g npm && npm install && npm test
+    echo trying multiline npm again
+    npm install -g npm
+    npm install
+    npm test
   displayName: 'npm install and build'
