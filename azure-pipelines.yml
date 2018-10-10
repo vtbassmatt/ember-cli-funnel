@@ -23,6 +23,9 @@ steps:
 - script: |
     echo trying multiline npm again
     npm install -g npm
+    echo 1------
     npm install
+    echo 2------
     npm test
+    echo 3------
   displayName: 'npm install and build'
